@@ -1,4 +1,4 @@
-# Transaction App
+# Transaction Safety App
 
 
 ## Project Overview
@@ -40,6 +40,7 @@ The application follows the **MVVM (Model-View-ViewModel)** design pattern:
 
 - The user can view a list of transactions fetched from a remote server.
 - The transactions are displayed in a list format on the main screen.
+- Stored transactions data into Room DataBase.
 
 
 ### Biometric Authentication:
@@ -72,7 +73,7 @@ The application follows the **MVVM (Model-View-ViewModel)** design pattern:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/transaction-app.git
+    git clone https://github.com/Mahi0619/transaction_safety.git
     ```
 
 
