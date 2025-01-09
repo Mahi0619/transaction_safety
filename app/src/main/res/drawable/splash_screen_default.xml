@@ -1,0 +1,12 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Centered app icon -->
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/ibv2"
+        android:width="@dimen/_60sdp"
+        android:height="@dimen/_60sdp" />
+    </item>
+
+</layer-list>

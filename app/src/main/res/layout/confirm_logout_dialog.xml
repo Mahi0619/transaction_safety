@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_margin="@dimen/smallMargin"
+    android:elevation="@dimen/_10sdp"
+    android:orientation="vertical"
+    app:cardCornerRadius="@dimen/_8sdp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        >
+
+
+        <TextView
+            android:id="@+id/tv_print_timesheet"
+            style="@style/TextViewHeading"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:layout_marginBottom="@dimen/_12sdp"
+            android:text="Logout"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/txt_normal"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_message_timesheet"
+            style="@style/TextViewSubHeading"
+            android:layout_below="@id/tv_print_timesheet"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="@dimen/_12sdp"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:layout_marginEnd="@dimen/_12sdp"
+            android:layout_marginBottom="@dimen/_12sdp"
+            android:text="Are you sure you want to logout?"
+            android:textAlignment="center"
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_message_timesheet"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/btn_No"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/btn_height"
+                android:layout_below="@id/tv_message_timesheet"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:background="@drawable/cancel_button"
+                android:gravity="center"
+                android:text="Cancel"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/verySmallTextSize"
+                android:textStyle="bold"
+                app:cornerRadius="@dimen/_20sdp" />
+
+            <TextView
+                android:id="@+id/btn_Yes"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/btn_height"
+                android:layout_below="@id/tv_message_timesheet"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:background="@drawable/bg_button_universal"
+                android:gravity="center"
+                android:text="Log Out"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/verySmallTextSize"
+                android:textStyle="bold"
+                app:cornerRadius="@dimen/_20sdp" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</com.google.android.material.card.MaterialCardView>
+
+
+
+

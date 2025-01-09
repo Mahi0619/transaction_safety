@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Transaction Safety</string>
+    <string name="no_network_availabiity">No internet connectivity</string>
+
+
+    <!-- Login strings -->
+
+    <string name="user">Username</string>
+    <string name="password">Password</string>
+    <string name="user_name_error">Please Enter username</string>
+    <string name="password_error">Please Enter Password</string>
+    <string name="password_length_error">Password length should be more than 5</string>
+
+
+    <!-- Dashboard strings -->
+    <string name="dashboard_title">Transaction history</string>
+    <string name="start_date">Start date</string>
+    <string name="end_date">End date</string>
+    <string name="transaction_search_by_category">Search by category</string>
+    <string name="transaction_money">Amount</string>
+    <string name="transaction_date">Date</string>
+    <string name="transaction_category">Category</string>
+    <string name="transaction_description">Description</string>
+
+
+
+    <!-- server strings-->
+    <string name="internal_server_error">Internal Server Error</string>
+    <string name="something_went_wrong_error">Something went wrong. Please try again</string>
+    <string name="session_expired_msg">Session expired. Please log in again.</string>
+
+    <string name="login">Login</string>
+    <string name="zero">0.00</string>
+
+    <string name="view_pdf">View pdf</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- BIometric authentication-->
+    <string name="unlock_biometric_strong">Unlock with biometric strong</string>
+    <string name="unlock_biometric_weak">Unlock with biometric weak</string>
+    <string name="unlock_device_credential">Unlock with device credential</string>
+    <string name="unlock_biometric_weak_device">Unlock with biometric weak and device credential</string>
+    <string name="image_unlock">Image unlock</string>
+    <string name="prompt_info_title">Transaction Authentication</string>
+    <string name="message_no_support_biometrics">Device does not support Biometrics.</string>
+    <string name="message_no_enrolled_biometrics">Device does not have any biometrics enrolled. Do the configuration in Settings.</string>
+    <string name="message_no_hardware_available">No Hardware available for Biometrics.</string>
+    <string name="message_error_security_update_required">A security vulnerability has been discovered with one or more hardware sensors. The affected sensor(s) are unavailable until a security update has addressed the issue.</string>
+    <string name="message_hardware_unavailable">Hardware is unavailable. Try again later.</string>
+    <string name="error_unknown">Unknown error.</string>
+    <string name="common_search_hint">Search by Category</string>
+    <string name="details">Details</string>
+    <string name="Ok">Ok</string>
+    <string name="cancel">CANCEL</string>
+    <string name="add_another_user">Add another user</string>
+    <string name="splash_title">Imperative Business Ventures Limited</string>
+
+</resources>
